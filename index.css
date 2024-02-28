@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+}
+ul {
+    list-style: none;
+    border: 1px solid black;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    height: 45px;
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+.hh {
+    font-size: 50px;
+}
+
+.line {
+    float: left;
+    color: white;    
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.btn {
+    padding-left: 30px;
+    color: white;
+    float: right;
+    padding: 5px;
+}
+
+#head1 {
+    border: 1px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 40px;
+} 
+
+#head2 {
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 7px;
+} 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: rgb(171, 139, 201);
+}
+
+
+.table {
+    text-align: center;
+    background-color: rgb(224, 199, 247);
+    height: 200px;
+}
+
+input {
+    border: 1px solid black;
+    width: 400px;
+    height: 28px;
+}
+
+h1 {
+    padding-top: 35px;
+}
+
+.para {
+    color: blue;
+    margin-top: -15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;           
+    margin-top: 50px;                                                                                      
+    justify-content: center;
+    column-gap: 200px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    border: 1px solid black;
+    border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: auto;
+    padding: 20px;
+    
+}
+
+li {
+    list-style-type: none
+}
+
+.pen1, .pen2, .pen3, .pen4 {
+    float: left;
+    margin: 50px;
+    margin-right: 60px;
+    margin-top: -5px;
+    padding: 30px;
+}
+
+.pen {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#main {
+    background-color: white;
+}
+
+ /*media query for body*/
+@media screen and (max-width: 600px) {
+    .grid-container  {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }    
+}
+
+ /*media query for footer */
+
+@media screen and (max-width: 600px) {
+    .foot  {
+        display: grid;
+        grid-template-columns: auto auto;
+        border-radius: 0px;
+        gap: 50px;
+        width: auto;
+        height: 590px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .ll {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+
